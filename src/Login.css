@@ -1,0 +1,107 @@
+.Login{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-height: 100vh;
+    background-color: #F2F2F2;
+}
+
+.phoneArea{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    min-height: 95vh;
+}
+.phoneArea > img{
+    width: 100%;
+}
+
+.loginFormArea{
+    border: 1px solid #DBDBDB;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 35%;
+    min-height: 90vh;
+    padding: 2%;
+}
+.heading{
+    font-family: 'Lobster', cursive;
+    font-weight: 450;
+    font-size: 2rem;
+}
+
+.groupInput{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    min-height: 15vh;
+    width: 60%;
+}
+.groupInput > input{
+    padding: 2%;
+    border: 1px solid #DBDBDB;
+    width: 100%;
+    height: 35px;
+    border-radius: 3px;
+}
+.groupInput > input:focus{
+    outline-color: grey;
+}
+
+.loginButton{
+    border: none;
+    background-color: #0095F6;
+    color: white;
+    text-align: center;
+    width: 60%;
+    height: 35px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.loginFormArea > p{
+    color: #8296A5;
+}
+.toRegister{
+    color: #0095F6;
+    text-decoration: none;
+}
+
+.rowGroup{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 80%;
+}
+
+.rowGroup>button{
+    background-color: black;
+    border: none;
+    color: white;
+    width: 48%;
+    height: 60px;   
+    padding: 5%;
+    font-size: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 768px){
+    .phoneArea{
+        display: none;
+    }
+    .loginFormArea{
+        width: 75%;
+    }
+    .heading{
+     font-size: 1rem;   
+    }
+}

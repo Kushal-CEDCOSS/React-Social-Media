@@ -1,0 +1,21 @@
+.Card{
+    min-height: 25vh;
+    width: 50%;
+    border: 1px solid black;
+}
+.commentBody{
+    margin-top: 2%;
+    background-color: rgb(241, 241, 241);
+    padding: 1% 1% 4% 2%;
+    border-radius: 10px;
+}
+.person{
+    margin-top: 1vw;
+    font-size: 1.6vw;
+
+}
+.message{
+    margin-top: 1%;
+    padding-left: 5%;
+    font-size: 1.5vw;
+}

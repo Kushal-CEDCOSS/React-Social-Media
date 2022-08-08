@@ -1,0 +1,36 @@
+.Navbar{
+    display: flex;
+    flex-direction: row;
+    min-height: 15vh;
+    width: 100%;
+    background-color:#FFFFFF;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 5%;
+    padding-right: 5%;
+    border-bottom: 1px solid rgb(197, 197, 197);
+}
+.heading
+{
+    font-family: 'Lobster', cursive;
+    font-weight: 450;
+    font-size: 2rem;
+}
+
+.Navbar > button {
+    border: none;
+    background-color: #42B72A;
+    height: 5vh;
+    padding-left: 3%;
+    padding-right: 3%;
+    color: white;
+    font-weight: 600;
+    border-top-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.Navbar > button:hover {
+    cursor: pointer;
+    transform: scale(1.01,1.01);
+    box-shadow: 2px 2px 2px grey;
+}
